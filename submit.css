@@ -1,0 +1,33 @@
+.complete-icon{
+    height: 58px;
+    width: auto;
+}
+.complete-info{
+    margin-left: 180px;
+    width: 300px;
+    height: 400px;
+    padding: 0 20px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+.complete-info h2{
+    margin-top: 20px;
+    font-family: monospace;
+}
+.complete-info p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(147, 146, 146);
+}
+.complete-info button{
+    margin-top: 30px;
+    height: 40px;
+    width: 270px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

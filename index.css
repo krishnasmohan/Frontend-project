@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu Sans Mono", monospace;
+}
+body{
+    font-size: 20px;
+    display: flex;
+}   
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-border{
+    width: 1015px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+.right-div{
+    height: 100vh;
+}
+.cover-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.card-back{
+    width: 305px;
+    height: 170px;
+    margin: 380px -150px;
+    position: absolute;
+}
+.number-img{
+    background-image: url("/interactive-card-details-form-main/images/bg-card-front.png");
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: grid;
+    width: 300px;
+    height: 170px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: -520px 130px;
+    position: absolute;
+    background-size: cover;
+}
+.card-front-round{
+    width: 100%;
+    height: 80px;
+}
+.front-card-button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+}
+.card-front-number{
+    width: 100%;
+    color: #fff;
+    height: 50px;
+    padding-top: 10px;
+    font-family: monospace;
+}
+.frontcard-caption{
+    font-size: 12px;
+    color: #fff;
+}
+.cardfront-date{
+    margin-left: 140px;
+}
+.left-div{
+    width: 600px;
+    height: 660px;
+}
+.label-container{
+    width: 400px;
+    height: 400px;
+    margin-left: 214px;
+    margin-top: 200px;
+    padding-left: 50px;
+}
+.label{
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+}
+.input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 5px;
+}
+.expiry-date{
+    font-size: 12px;
+    font-weight: 500;
+     padding-top: 10px;
+
+}
+.cyc-label{
+    margin-left: 10px;
+}
+.month-input{
+    width: 40px;
+    height:30px;
+    margin-top: 5px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.year-input{
+    width: 50px;
+    height:30px;
+    margin-top: 5px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.CVC-input{
+    width: 120px ;
+    height:30px;
+    margin-top: 5px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.confirm-button{
+    margin-top: 30px;
+    height: 40px;
+    width: 270px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.warning{
+    font-size: 10px;
+    color: red;
+    font-weight: 500;
+}
+@media (max-width:1000px) {
+    .card-border{
+        grid-template-columns: 1fr;
+    }
+    .card-back{
+        margin: 380px -350px;
+    }
+}
+
+
+
+
+
+
+
